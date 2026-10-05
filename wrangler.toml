@@ -1,7 +1,6 @@
 name = "moltify-linkedin-agent"
-main = "worker.js"
+main = "src/index.js"
 compatibility_date = "2024-09-23"
 
 [vars]
-# Add your OPENROUTER_API_KEY as an environment variable in Cloudflare Dashboard
-# or use wrangler secret put OPENROUTER_API_KEY
+# Add OPENROUTER_API_KEY in Cloudflare Workers dashboard after deployment
